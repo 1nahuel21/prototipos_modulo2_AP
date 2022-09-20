@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUEVO PROYECTO</title>
+    <!--documento css-->
+    <link rel="stylesheet" href="/assets/style.css">
+    <!-- bootscrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--rpgui.style-->
+    <link href="/assets/dist/rpgui.min.css" rel="stylesheet"/>
+    <!--fuente retro -->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+     <!--fontn awesome(libreria de iconos)-->
+     <script src="https://kit.fontawesome.com/4f65fda21a.js" crossorigin="anonymous"></script>
+<style>
+#fotoperfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#banner{
+    background-image:url(/assets/dist/img/EJaJ5C2.png);
+    background-repeat: no-repeat;
+    width: calc(100%-100%);
+    height: calc(100px);
+}
+.rpgui-icon.empty-slot{
+  height: 150px;
+  width: 150px;
+}
+</style>
+</head>
+<body class="rpgui-content " style="background-color:#be9e87;font-family: 'Press Start 2P';">
+<!--header-->
+<header>
+<nav class="navbar navbar-expand-lg"style="background-color:#3f2310;">
+    <div class="container-fluid p-0">
+      <a class="navbar-brand" href="#">
+        <img src="/assets/dist/img/APLogo-20-20.png" alt="" width="200px" height="100px"></i>
+      </a>
+      <div>
+        <ul class="navbar flex-row flex-nowrap ms-md-auto">
+          <li type="button" class="btn">
+            <button type="button" class="rpgui-button " data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+              <p>login</p>
+            </button>
+            <form class="dropdown-menu dropdown-menu-end dropdown-menu-dark p-4">
+              <div class="mb-3">
+                <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+              </div>
+              <button type="submit" class="rpgui-button">Sign in</button>
+            </form>
+          </li>
+        </ul> 
+      </div>
+    </div>
+</nav>
+</header>
+<main>
+<div class="container "><!--seccion sobre mi -->
+<div class="row row-cols-1">
+  <div class="col">
+    <div class="rpgui-container framed position-relative ">
+      <div id="banner">
+        <div class="align-self-start">
+          <img class="img-fluid" src="/assets/dist/img/foto perfil.jpg.jpeg"alt=""id="fotoperfil">
+        </div>
+      </div>
+            <hr class="golden"/>
+            <label class="text-center"><p> Mi Nombre De Heroe</p></label>
+            <div class="rpgui-container framed-grey text-center ">
+              <p> Nahuel </p>
+            </div>
+            <hr class="golden"/>
+            <label class="text-center"><p>Familia-Gremio</p></label>
+            <div class="rpgui-container framed-grey text-center ">
+              <p> Cellone </p>
+            </div>
+            <hr class="golden"/>
+            <label class="text-center"><p>Historia</p></label>
+            <div class="rpgui-container framed-grey text-center ">
+              <p>Este heroe proviene de las tierras centricas de Argentina. <br>Cuando Chico era aficionado a los videoJuegos de rol. <br>Cuenta la historia que de mayor este heroe se encamino en la travesia de estudiar Programacion para poder unirse a algun gremio asociada a Este mundo. <br>Pero quien sabe que le deparar el futuro</p>
+            </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="rpgui-container framed rpgui-draggable" style="left:840px">
+      <h1>Icons</h1>
+      <hr />
+
+      <div class="rpgui-icon sword"></div>
+      <div class="rpgui-icon shield"></div>
+      <div class="rpgui-icon exclamation"></div>
+      <br /><br />
+  </div>
+</div>
+</main>
+        <footer>
+        </footer>
+      </div> 
+    
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
