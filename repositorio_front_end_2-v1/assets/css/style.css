@@ -1,0 +1,17 @@
+div#banner{
+background-image: url(/assets/img/EJaJ5C2.png);
+background-position: center;
+background-size: cover;
+height: 400px;
+padding: 0px;
+}
+.avatar{
+height: 250px!important;
+width: 250px!important;
+background-size: cover;
+border-radius: 50%;
+margin:175px 0px 0px 10px;
+}
+.ListaDeHabilidades{
+    list-style:none ;
+}
